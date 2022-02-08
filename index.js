@@ -1,10 +1,9 @@
-const main = document.querySelector(#main)
-
+const main = document.querySelector('#main')
 main.remove()
 
 const newHeader = document.createElement('h1')
-newHeader.setAttribute("id", "victory")
+newHeader.setAttribute('id', 'victory')
 
-newHeader.innerHTML = "Liz is the champion!"
+newHeader.textContent = "Liz is the champion!"
 
-document.body.append(newHeader)
+
